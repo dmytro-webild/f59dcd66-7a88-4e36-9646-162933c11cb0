@@ -5,7 +5,7 @@ import NavbarStyleApple from "@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import FooterCard from "@/components/sections/footer/FooterCard";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Twitter, Linkedin, Github } from "lucide-react";
 
 export default function AboutPage() {
   const navItems = [
@@ -24,7 +24,7 @@ export default function AboutPage() {
 
   const footerSolutionsItems = [
     { label: "Services", href: "/" },
-    { label: "Case Studies", href: "/" },
+    { label: "Case Studies", href: "#" },
     { label: "AI Integration", href: "#" }
   ];
 
@@ -79,9 +79,9 @@ export default function AboutPage() {
           logoText="AERRATRIC TECHNOLOGY INC"
           copyrightText="© 2024 AERRATRIC TECHNOLOGY INC. All rights reserved."
           socialLinks={[
-            { icon: "Twitter", href: "https://twitter.com/aerrartic", ariaLabel: "Twitter" },
-            { icon: "Linkedin", href: "https://linkedin.com/company/aerrartic-technology-inc", ariaLabel: "LinkedIn" },
-            { icon: "Github", href: "https://github.com/aerrartic", ariaLabel: "GitHub" }
+            { icon: Twitter, href: "https://twitter.com/aerrartic", ariaLabel: "Twitter" },
+            { icon: Linkedin, href: "https://linkedin.com/company/aerrartic-technology-inc", ariaLabel: "LinkedIn" },
+            { icon: Github, href: "https://github.com/aerrartic", ariaLabel: "GitHub" }
           ]}
           columns={[
             { title: "Company", items: footerNavItems },
