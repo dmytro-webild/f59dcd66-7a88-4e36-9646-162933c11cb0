@@ -9,7 +9,7 @@ import ProductCardTwo from "@/components/sections/product/ProductCardTwo";
 import MetricCardThree from "@/components/sections/metrics/MetricCardThree";
 import TestimonialCardTen from "@/components/sections/testimonial/TestimonialCardTen";
 import FooterCard from "@/components/sections/footer/FooterCard";
-import { ArrowRight, CheckCircle, Code, Cloud, Handshake } from "lucide-react";
+import { ArrowRight, CheckCircle, Code, Cloud, Handshake, Twitter, Linkedin, Github } from "lucide-react";
 
 export default function HomePage() {
   const navItems = [
@@ -59,7 +59,6 @@ export default function HomePage() {
             { text: "Explore Platform", href: "#services" }
           ]}
           mediaAnimation="slide-up"
-          useInvertedBackground={false}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BRQDoIB9NyK61wKPrMx774LuGA/a-futuristic-3d-abstract-tech-environmen-1774466846870-f80a5a46.png"
           marqueeItems={[
             { type: "text", text: "Intelligent Systems" },
@@ -76,6 +75,9 @@ export default function HomePage() {
           description="Our innovative solutions empower businesses across diverse sectors to achieve digital excellence."
           logos={[
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BRQDoIB9NyK61wKPrMx774LuGA/a-minimalist-grayscale-microsoft-logo-el-1774466846821-05a465fb.png",            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BRQDoIB9NyK61wKPrMx774LuGA/a-minimalist-grayscale-google-logo-elega-1774466847171-a0105ce4.png",            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BRQDoIB9NyK61wKPrMx774LuGA/a-minimalist-grayscale-amazon-logo-elega-1774466846093-4e3000e7.png",            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BRQDoIB9NyK61wKPrMx774LuGA/a-minimalist-grayscale-apple-logo-elegan-1774466845125-fcfb08ce.png",            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BRQDoIB9NyK61wKPrMx774LuGA/a-minimalist-grayscale-ibm-logo-elegant--1774466845787-bc571ea7.png",            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BRQDoIB9NyK61wKPrMx774LuGA/a-minimalist-grayscale-salesforce-logo-e-1774466846750-bea234fa.png",            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BRQDoIB9NyK61wKPrMx774LuGA/a-minimalist-grayscale-oracle-logo-elega-1774466847332-5bc8a065.png"
+          ]}
+          names={[
+            "Microsoft", "Google", "Amazon", "Apple", "IBM", "Salesforce", "Oracle"
           ]}
           textboxLayout="default"
           useInvertedBackground={true}
@@ -150,9 +152,9 @@ export default function HomePage() {
           logoText="AERRATRIC TECHNOLOGY INC"
           copyrightText="© 2024 AERRATRIC TECHNOLOGY INC. All rights reserved."
           socialLinks={[
-            { icon: "Twitter", href: "https://twitter.com/aerrartic", ariaLabel: "Twitter" },
-            { icon: "Linkedin", href: "https://linkedin.com/company/aerrartic-technology-inc", ariaLabel: "LinkedIn" },
-            { icon: "Github", href: "https://github.com/aerrartic", ariaLabel: "GitHub" }
+            { icon: Twitter, href: "https://twitter.com/aerrartic", ariaLabel: "Twitter" },
+            { icon: Linkedin, href: "https://linkedin.com/company/aerrartic-technology-inc", ariaLabel: "LinkedIn" },
+            { icon: Github, href: "https://github.com/aerrartic", ariaLabel: "GitHub" }
           ]}
           columns={[
             { title: "Company", items: footerNavItems },
