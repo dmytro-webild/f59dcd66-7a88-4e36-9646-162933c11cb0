@@ -66,22 +66,6 @@ export default function ContactPage() {
             { icon: Linkedin, href: "https://linkedin.com/company/aerrartic-technology-inc", ariaLabel: "LinkedIn" },
             { icon: Github, href: "https://github.com/aerrartic", ariaLabel: "GitHub" }
           ]}
-          columns={[
-            { title: "Company", items: footerNavItems },
-            { title: "Solutions", items: footerSolutionsItems },
-            { title: "Resources", items: [
-                { label: "Blog", href: "#" },
-                { label: "Support", href: "#" },
-                { label: "Docs", href: "#" }
-              ]
-            },
-            { title: "Contact", items: [
-                { label: "hello@aerrartictechnology.com", href: "mailto:hello@aerrartictechnology.com" },
-                { label: "(866) 319-3883", href: "tel:+18663193883" },
-                { label: "3404 North Cascade Avenue, Colorado Springs, CO 80907", href: "#" }
-              ]
-            }
-          ]}
         />
       </div>
     </ThemeProvider>
